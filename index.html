@@ -2,27 +2,65 @@
 <html lang="en">
 <head>
 <meta charset=utf-8>
-<title>AWS Comprehend</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Comprehend</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<img class="logo" src="https://d1.awsstatic.com/uki-digital-marketing-content-directory/AWS%20logo.884800f1674e960b6134af7340ac45ab21d99682.png" alt="logo">
-<p class="pageTitle">Comprehend</p>
+<header >
+<div class="logo-container">
+    <img class="logo" src="https://d1.awsstatic.com/uki-digital-marketing-content-directory/AWS%20logo.884800f1674e960b6134af7340ac45ab21d99682.png" alt="logo">
+    </div>
+<div class="navbar-container">
 <nav class="hover-div">
 <ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="use-cases.html">Use Cases</a></li>
-<li><a href="how-to.html">How To</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="use-cases.html">Use Cases</a></li>
+    <li><a href="how-to.html">How To</a></li>
 </ul>
 </nav>
+</div>
 </header>
+<section class="hero text-center text-black d-flex align-items-center">
+    <div class="container">
+        <h1>Amazon Comprehend</h1>
+        <p>Understand and extract valuable insights from your text data with Amazon Comprehend. </p>
+        <div>
+            <a href="https://console.aws.amazon.com/comprehend/v2/home?" class="btn btn-primary mr-2">Get started for free</a>
+            <a href="https://aws.amazon.com/contact-us/sales-support/?pg=ln&cp=bn" class="btn btn-dark">Contact an expert</a>
+        </div>
+    </div>
+</section>
 <section>
-<h2>About Comprehend</h2>
-<p>Amazon Comprehend is a natural-language processing (NLP) service that uses machine learning to uncover valuable insights and connections in text.
+<h2 class="section-head">About Comprehend</h2>
+<p class="head-text">Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text, no machine learning experience is required. Amazon Comprehend uses machine learning to help you uncover the insights and relationships in your unstructured data. The service identifies the language of the text; extracts key phrases, places, people, brands, or events; understands how positive or negative the text is; analyzes text using tokenization and parts of speech; and automatically organizes a collection of text files by topic. You can also use AutoML capabilities in Amazon Comprehend to build a custom set of entities or text classification models that are tailored uniquely to your organization’s needs.
 </p>
-<img src="s3.png" alt="S3">
-<h2>Benefits</h2>
+<img class="comp-image" src="images/comprehend-image2.jpg" alt="comprehend">
+
+<div class ="container my-5">
+    <h2 class="text-center mb-4"> Benefits</h2>
+    <details class="card">
+        <summary class="text-center card-header"> Integration</summary>
+        <div class="text-center card-body">
+            Integrate powerful natural language processing into your apps
+        </div>
+    </details>
+    <details class="card">
+        <summary class="text-center card-header"> Processing </summary>
+        <div class="text-center card-body">
+            Deep learning based natural language processing
+        </div>
+    </details>
+    <details class="card">
+        <summary class="text-center card-header"> Scalability</summary>
+        <div class=" text-center card-body">
+            Scalable natural language processing
+        </div>
+    </details>
+</div>
+
+<!-- <h2>Benefits</h2>
 <ul>
     <li>Integrate powerful natural language processing into your apps</li>
     <li>Deep learning based natural language processing</li>
@@ -31,9 +69,11 @@
     <li>Encryption of output results and volume data</li>
     <li>Low cost</li>
 </ul>
-</section>
+</section> -->
 <footer>
-<p>&copy;Amazon Web Services</p>
+    <div class="container">
+        <p>&copy; 2024 Amazon Web Services. All rights reserved.</p>
+    </div>
 </footer>
 </body>
 </html> 

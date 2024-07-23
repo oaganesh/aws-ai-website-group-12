@@ -3,9 +3,33 @@ body{
     margin: 0;
 }
 header {
-    background-color: #006699;
+    background-color: #03324c;
     height: 100px;
     color: #ffffff;
+}
+h1{
+  padding-left: 20px;
+  text-align: center;
+}
+
+
+h2{
+  /* padding-top: 2rem; */
+  padding-left: 20px;
+  text-align: center;
+  /* padding-bottom: -2rem; */
+
+}
+
+.section-head{
+  padding-top: 2rem;
+
+}
+
+p{
+  padding-left: 20px;
+  /* text-align: center; */
+
 }
 .logo {
     width: 100px;
@@ -13,7 +37,7 @@ header {
     padding-right: 20px;
 }
 footer {
-    background-color: #006699;
+    background-color: #03324c;
     height: 50px;
     color: #ffffff;
     padding-top: 4px;
@@ -34,9 +58,16 @@ nav {
 
 .hover-div ul {
   list-style: none; /* Removing default list styling */
-  margin: 0; /* Setting margin to 0 */
-  padding: 0; /* Setting padding to 0 */
+  margin-right: 2rem; /* Setting margin to 0 */
+  padding-top: 0; /* Setting padding to 0 */
   overflow: hidden; /* Hiding any overflowing content */
+  display: flex;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .hover-div li {
@@ -48,7 +79,7 @@ nav {
   display: block; /* Displaying links as block-level elements for proper styling */
   color: #fff; /* Setting text color to white */
   text-align: center; /* Centering text horizontally */
-  padding: 8px 12px; /* Setting padding for the links */
+  padding: 1px 12px; /* Setting padding for the links */
   text-decoration: none; /* Removing underline from links */
   z-index: 0; /* Setting z-index to 0 for stacking context */
 }
@@ -70,4 +101,65 @@ li a:hover:before, /* CSS rule for pseudo-element before links on hover */
 li a:focus:before { /* CSS rule for pseudo-element before links on focus */
   transform: scale(1); /* Scaling the pseudo-element to 1 on hover/focus */
 }
+.hero {
+  background-color: #ff9900;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
 
+.hero h2 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.features-container, .use-cases-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.logo-container{
+  padding-top:1rem;
+}
+
+.feature, .use-case {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.head-text{
+  width: 75rem;
+  text-align: center;
+  padding-left: 15rem;
+}
+
+.comp-image{
+  width:80rem;
+  text-align: center;
+  padding-left: 10rem;
+  padding-top: 2rem;
+}
+
+.navbar-list{
+  text-align: right;
+}
