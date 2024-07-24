@@ -150,14 +150,20 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 .head-text{
 width: 75rem;
 text-align: center;
-padding-left: 15rem;
+/* padding-left: 15rem; */
+display: block;  
+margin-left: auto;  
+margin-right: auto;  
 }
 
 .comp-image{
 width:80rem;
-text-align: center;
-padding-left: 10rem;
+/* text-align: center; */
+/* padding-left: 10rem; */
 padding-top: 2rem;
+display: block; 
+margin-left: auto;  
+margin-right: auto;  
 }
 
 .navbar-list{
