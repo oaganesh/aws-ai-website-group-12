@@ -10,6 +10,7 @@ header {
     color: #ffffff;
 }
 
+
 .logo {
     width: 100px;
     float: left;
@@ -36,12 +37,13 @@ nav {
     }
     
 
-.hover-div ul {
-    list-style: none; /* Removing default list styling */
-    margin: 0; /* Setting margin to 0 */
-    padding: 0; /* Setting padding to 0 */
-    overflow: hidden; /* Hiding any overflowing content */
-  }
+    .hover-div ul {
+        list-style: none; /* Removing default list styling */
+        margin-right: 2rem; /* Setting margin to 0 */
+        padding-top: 0; /* Setting padding to 0 */
+        overflow: hidden; /* Hiding any overflowing content */
+        display: flex;
+        }
   
   .hover-div li {
     float: left; /* Making list items float to align horizontally */
@@ -84,7 +86,7 @@ nav {
 .center-image {
     display: flex;
     margin: 20px 20px;
-    max-width: 80%;
+    width: 1000px;
     height: auto;
 }
 
