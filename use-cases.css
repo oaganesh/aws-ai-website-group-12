@@ -2,3 +2,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.usecase-image{
+    width: 80rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
